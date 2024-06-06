@@ -21,5 +21,5 @@ export default defineConfig({
     }
   },
   assetsInclude: ['**/*.glb'],
-  publicDir: 'lol-progress'
+  base: '/lol-progress/'
 })
