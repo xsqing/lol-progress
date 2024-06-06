@@ -20,5 +20,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  assetsInclude: ['**/*.glb']
+  assetsInclude: ['**/*.glb'],
+  publicDir: 'lol-progress'
 })
